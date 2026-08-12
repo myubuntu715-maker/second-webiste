@@ -1,0 +1,5 @@
+name = "your-portfolio-name"
+compatibility_date = "2026-08-12"
+
+[assets]
+directory = "./dist"
