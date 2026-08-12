@@ -43,7 +43,7 @@ export default function Terminal() {
         <span className="h-2.5 w-2.5 rounded-full bg-green-500/70" />
         <span className="ml-2 font-mono text-xs text-slate-500">terminal</span>
       </div>
-      <div className="min-h-[168px] px-4 py-4 font-mono text-sm leading-relaxed">
+      <div className="min-h-42 px-4 py-4 font-mono text-sm leading-relaxed">
         {history.map((line, i) => (
           <div key={i} className="mb-2">
             <p className="text-slate-500"><span className="text-green-400">➜</span> {line.prompt}</p>
